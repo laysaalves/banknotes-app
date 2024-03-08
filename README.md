@@ -4,5 +4,5 @@
 <p align="left">🟢 Área de SignUp e SignIn;</p>
 <p align="left">🟢 Design UX/UI com garantia de praticidade nas funcionalidades existentes no app.</p>
 <h2 align="left">Tecnologias utilizadas:</h2>
-<p align="left"> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p>
 
