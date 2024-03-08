@@ -1,5 +1,5 @@
 <h1>🛠️ Em desenvolvimento 🛠️</h1>
-<p>Aplicativo híbrido para planilhar as finanças de forma prática e intuitiva.</p>
+<p>Aplicativo para planilhar as finanças de forma prática e intuitiva.</p>
 <h1 align="left">A V1.0 contará com:</h1>
 <p align="left">🟢 Área de SignUp e SignIn com sistema de autenticação e recuperação de senha;</p>
 <p align="left">🟢 Design UX/UI para utilização plena das principais funcionalidades do app.</p>
