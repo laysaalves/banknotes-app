@@ -1,4 +1,4 @@
-<a href="https://github.com/laysaalves/banknotes-app/blob/main/README-PTBR">Não fala inglês? Clique aqui para ler em português!</a>
+<a href="https://github.com/laysaalves/banknotes-app/blob/main/README-PTBR.md">Não fala inglês? Clique aqui para ler em português!</a>
 <h1>🛠️ In progress 🛠️</h1>
 <p>Application for planning finances in a practical and intuitive way.</p>
 <h1 align="left">V1.0 will include:</h1>
