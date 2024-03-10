@@ -1,5 +1,6 @@
-<a href="https://github.com/laysaalves/banknotes-app/blob/main/README-PTBR.md">Não fala inglês? Clique aqui para ler em português!</a>
+
 <p align="center">
+  <a href="https://github.com/laysaalves/banknotes-app/blob/main/README-PTBR.md">Não fala inglês? Clique aqui para ler em português!</a>
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-download-here">Download the app</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -21,7 +22,7 @@
 
 ## 📥 Download here
 
-<h2 align="left">📥 Download the APK:</h2>
+
 
 ## 🔐 License
 
