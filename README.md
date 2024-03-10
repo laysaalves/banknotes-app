@@ -12,7 +12,7 @@
 ## 🛠️ Project
 
 <p>Application for planning finances in a practical and intuitive way.</p>
-<p>V1.0 will include:<p>
+<p>⭐ V1.0 will include:<p>
 <p align="left">🟢 SignUp and SignIn area with authentication and password recovery system;</p>
 <p align="left">🟢 Design UX/UI to make full use of the app's main features.</p>
 
