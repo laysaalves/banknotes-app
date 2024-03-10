@@ -4,7 +4,7 @@
   </p>
  <p align="center"> 
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies present</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies-present">Technologies present</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-download-here">Download the app</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
@@ -16,9 +16,10 @@
 <p align="left">🟢 SignUp and SignIn area with authentication and password recovery system;</p>
 <p align="left">🟢 Design UX/UI to make full use of the app's main features.</p>
 
-## 🚀 Technologies
+## 🚀 Technologies present
 
-<p align="left"><a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/></a><a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/></a></p>
+- [React Native](https://reactnative.dev/)
+- [Firebase](https://firebase.google.com/)
 
 ## 📥 Download here
 
