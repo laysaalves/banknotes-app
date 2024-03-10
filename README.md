@@ -5,7 +5,7 @@
  <p align="center"> 
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies-present">Technologies present</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-download-here">Download the app</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-download-the-app">Download the app</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
 
@@ -21,7 +21,7 @@
 - [React Native](https://reactnative.dev/)
 - [Firebase](https://firebase.google.com/)
 
-## 📥 Download here
+## 📥 Download the app
 
 
 
