@@ -17,14 +17,21 @@ export default function Header({ name }) {
  return (
     <View style={styles.container}>
         <View style={styles.content}>
-            <Text style={styles.username}>{name}</Text>
+            <Text style={styles.username}>Opa, {name}</Text>
+
+            <TouchableOpacity 
+                activeOpacity={0.7} 
+                style={styles.buttonBell}
+                >
+                <FeatherIcon name="bell" size={27} color={COLORS.secundary} />
+            </TouchableOpacity>
 
             <TouchableOpacity 
                 activeOpacity={0.7} 
                 style={styles.buttonUser}
                 >
-                <FeatherIcon name="user" size={29} color={COLORS.secundary} />
-            </TouchableOpacity> 
+                <FeatherIcon name="user" size={27} color={COLORS.secundary} />
+            </TouchableOpacity>  
         </View>
    </View>
   )
@@ -49,6 +56,13 @@ const styles = StyleSheet.create({
         fontSize: 18,
         color: COLORS.secundary,
         fontWeight: 'bold'
+    },
+    buttonBell:{
+        width: 44,
+        height: 44,
+        right: -78,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     buttonUser:{
         width: 44,

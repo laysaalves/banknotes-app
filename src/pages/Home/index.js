@@ -37,8 +37,8 @@ export default function Home() {
 
       <Balance saldo="7.391,57" gastos="-302,84"/>
 
-      <Text style={styles.title}>SUAS MOVIMENTAÇÕES</Text>
       <Actions/>
+      <Text style={styles.title}>SUA ÚLTIMA ATIVIDADE</Text>
       <FlatList style={styles.list}
       data={list}
       keyExtractor={ (item) => String(item.id)}
@@ -60,10 +60,11 @@ const styles = StyleSheet.create({
     marginLeft: 14,
     marginRight: 14,
     marginTop: 14,
-    color: COLORS.darkGreen
+    color: COLORS.darkLight
   },
   list:{
     marginStart: 14,
     marginEnd: 14,
+    marginTop: 14
   }
 });

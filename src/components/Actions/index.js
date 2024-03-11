@@ -20,37 +20,37 @@ export default function Actions() {
         style={styles.actionButton}
         >
         <View style={styles.areaButton}>
-        <FeatherIcon name="heart" size={29} color={COLORS.primary} />
+        <FeatherIcon name="heart" size={29} color={COLORS.darkGreen} />
         </View>
         <Text style={styles.labelButton}>Saúde</Text>
     </TouchableOpacity>
 
     <TouchableOpacity style={styles.actionButton}>
         <View style={styles.areaButton}>
-        <FeatherIcon name="trending-up" size={29} color={COLORS.primary} />
+        <FeatherIcon name="trending-up" size={29} color={COLORS.darkGreen} />
         </View>
-        <Text style={styles.labelButton}>Investimentos</Text>
+        <Text style={styles.labelButton}>Investir</Text>
     </TouchableOpacity>
 
     <TouchableOpacity style={styles.actionButton}>
         <View style={styles.areaButton}>
-        <FeatherIcon name="briefcase" size={29} color={COLORS.primary} />
+        <FeatherIcon name="briefcase" size={29} color={COLORS.darkGreen} />
         </View>
         <Text style={styles.labelButton}>Viagens</Text>
     </TouchableOpacity>
 
     <TouchableOpacity style={styles.actionButton}>
         <View style={styles.areaButton}>
-        <FeatherIcon name="shopping-cart" size={29} color={COLORS.primary} />
+        <FeatherIcon name="shopping-cart" size={29} color={COLORS.darkGreen} />
         </View>
         <Text style={styles.labelButton}>Compras</Text>
     </TouchableOpacity>
 
     <TouchableOpacity style={styles.actionButton}>
         <View style={styles.areaButton}>
-        <AntDesign name="barcode" size={29} color={COLORS.primary} />
+        <AntDesign name="barcode" size={29} color={COLORS.darkGreen} />
         </View>
-        <Text style={styles.labelButton}>Pagamentos</Text>
+        <Text style={styles.labelButton}>Pagar</Text>
     </TouchableOpacity>
 
    </ScrollView>
@@ -82,6 +82,6 @@ const styles = StyleSheet.create({
         marginTop: 4,
         textAlign: 'center',
         fontWeight: 'bold',
-        color: COLORS.darkLight
+        color: COLORS.darkGreen
     }
 })
