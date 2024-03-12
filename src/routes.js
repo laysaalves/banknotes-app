@@ -42,7 +42,6 @@ export default function Routes(){
             name="Resumo" 
             component={Activities}
             options={{
-                headerShown: false,
                 tabBarIcon: ({ color, size, focused }) => {
                     if(focused){
                         return <FeatherIcon name="pie-chart" size={size} color={color}/>
