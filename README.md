@@ -1,7 +1,12 @@
 <p align="center">
   <a href="https://github.com/laysaalves/banknotes-app/blob/main/README-PTBR.md">Não fala inglês? Clique aqui para ler em português!</a>
   </p>
- <p align="center"> 
+<p align="center"> 
+
+<div align="center">
+   <img src=".github/project-logo.svg" height="90">
+</div>  
+
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies-present">Technologies present</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-download-the-app">Download the app</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
