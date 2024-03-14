@@ -1,4 +1,9 @@
 <a href="https://github.com/laysaalves/banknotes-app/blob/main/README.md">Don't speak Portuguese? Click here to view the english version!</a>
+
+<div align="center">
+   <img src=".github/project-logo.jpg" width="925" height="200">
+</div> 
+
 <h1>🛠️ Em desenvolvimento 🛠️</h1>
 <p>Aplicativo para planilhar as finanças de forma prática e intuitiva.</p>
 <h1 align="left">A v1.0 contará com:</h1>
