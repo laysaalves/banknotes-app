@@ -16,7 +16,7 @@
 ## 🛠️ Projeto
 
 <p>Aplicativo para organizar as finanças de forma prática e estética, dando um basta nas planilhas!</p>
-<p>⭐ A v1.0 contará com:<p>
+<p>⭐ A V1.0 contará com:<p>
 <p align="left">🟢 Área de SignUp e SignIn com autenticação de conta e recuperação de senha.</p>
 <p align="left">🟢 Design UX/UI para utilizar 100% das funcionalidades do app com um visual agradável.</p>
 
