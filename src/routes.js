@@ -1,21 +1,47 @@
 import React from "react";
+import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import COLORS from './consts/colors'
+
 import Home from './pages/Home'
 import Activities from './pages/Activities'
 import Plus from './pages/Plus'
 import Credits from './pages/Credits'
 import Menu from './pages/Menu'
-import ButtonAdd from "./components/ButtonAdd";
+import ButtonAdd from "./components/ButtonAdd"
+
+import Welcome from "./pages/Welcome";
+import SignUp from "./pages/SignUp";
 
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
 const Tab = createBottomTabNavigator();
+const Stack = createNativeStackNavigator();
 
 export default function Routes(){
     return(
-        <Tab.Navigator
+        <Stack.Navigator>
+
+                <Stack.Screen
+                name="Welcome"
+                component={Welcome}
+                options={{ headerShown: false}} 
+                />
+
+                <Stack.Screen
+                name="Home"
+                component={SignUp}
+                options={{ headerShown: false}}
+                />
+
+            </Stack.Navigator>
+    );
+}
+    function TabNavigator(){
+        return(
+            <Tab.Navigator
             screenOptions={{
                 tabBarShowLabel: false,
                 tabBarActiveTintColor: COLORS.primary,
