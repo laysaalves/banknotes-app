@@ -31,4 +31,4 @@
 
 ## 🔐 Licença
 
-Esteja atento, esse projeto possui Lincença MIT. Acesse [LICENÇA](LICENSE) e saiba mais.
+Esteja atento, esse projeto possui Licença MIT. Acesse [LICENÇA](LICENSE) e saiba mais.
