@@ -1,9 +1,34 @@
+<p align="center">
 <a href="https://github.com/laysaalves/banknotes-app/blob/main/README.md">Don't speak Portuguese? Click here to view the english version!</a>
-<h1>🛠️ Em desenvolvimento 🛠️</h1>
-<p>Aplicativo para planilhar as finanças de forma prática e intuitiva.</p>
-<h1 align="left">A v1.0 contará com:</h1>
-<p align="left">🟢 Área de SignUp e SignIn com sistema de autenticação e recuperação de senha;</p>
-<p align="left">🟢 Design UX/UI para utilização plena das principais funcionalidades do app.</p>
-<h2 align="left">Tecnologias presentes:</h2>
-<p align="left"><a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/></a><a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/></a></p>
-<h2 align="left">📥 Faça o download do APK:</h2>
+</p>
+
+<div align="center">
+   <img src=".github/project-logo.jpg" width="925" height="200">
+</div> 
+
+<p align="center">  
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias-presentes">Tecnologias presentes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-faça-o-download-do-app">Faça o download do app</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
+
+## 🛠️ Projeto
+
+<p>Aplicativo para organizar as finanças de forma prática e estética, dando um basta nas planilhas!</p>
+<p>⭐ A V1.0 contará com:<p>
+<p align="left">🟢 Área de SignUp e SignIn com autenticação de conta e recuperação de senha.</p>
+<p align="left">🟢 Design UX/UI para utilizar 100% das funcionalidades do app com um visual agradável.</p>
+
+## 🚀 Tecnologias presentes
+
+- [React Native](https://reactnative.dev/)
+- [Firebase](https://firebase.google.com/)
+
+## 📥 Faça o download do app
+
+
+
+## 🔐 Licença
+
+Esteja atento, esse projeto possui Licença MIT. Acesse [LICENÇA](LICENSE) e saiba mais.
