@@ -73,10 +73,10 @@ export default function Routes(){
             }}   
             />
             <Tab.Screen 
-            name="Menu" 
+            name="Configurações" 
             component={Menu}
             options={{
-                headerShown: false,
+                headerTintColor: COLORS.primary,
                 tabBarIcon: ({ color, size, focused }) => {
                     if(focused){
                         return <FeatherIcon name="menu" size={size} color={color}/>
