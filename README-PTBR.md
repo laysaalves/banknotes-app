@@ -13,7 +13,7 @@
   <a href="#-licença">Licença</a>
 </p>
 
-## 🛠️ Projeto
+## 🎯 Projeto
 
 <p>Aplicativo para organizar as finanças de forma prática e estética, dando um basta nas planilhas!</p>
 <p>⭐ A V1.0 contará com:<p>

@@ -13,7 +13,7 @@
   <a href="#-license">License</a>
 </p>
 
-## 🛠️ Project
+## 🎯 Project
 
 <p>Application for planning finances in a practical and intuitive way.</p>
 <p>⭐ V1.0 will include:<p>
