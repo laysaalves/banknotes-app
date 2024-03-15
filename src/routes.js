@@ -14,6 +14,8 @@ import ButtonAdd from "./components/ButtonAdd"
 
 import Welcome from "./pages/Welcome";
 import SignUp from "./pages/SignUp";
+import SignIn from "./pages/SignIn";
+import ForgotPassword from "./pages/ForgotPassword";
 
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
@@ -31,8 +33,26 @@ export default function Routes(){
                 />
 
                 <Stack.Screen
-                name="Home"
+                name="Registrar"
                 component={SignUp}
+                options={{ headerShown: false}}
+                />
+
+                <Stack.Screen
+                name="Logar"
+                component={SignIn}
+                options={{ headerShown: false}}
+                />
+
+                <Stack.Screen
+                name="Recriar senha"
+                component={ForgotPassword}
+                options={{ headerShown: false}}
+                />
+
+                <Stack.Screen
+                name="Home"
+                component={Home}
                 options={{ headerShown: false}}
                 />
 
