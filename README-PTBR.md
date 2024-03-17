@@ -15,10 +15,14 @@
 
 ## 🎯 Projeto
 
-<p>Aplicativo para organizar as finanças de forma prática e estética, dando um basta nas planilhas!</p>
-<p>⭐ A V1.0 contará com:<p>
+<p>Carinhosamente apelidado como "BankNotes", o aplicativo foi desenvolvido para organizar as finanças de forma prática e estética, dando um basta nas planilhas e na desorganização! O objetivo mais precisamente é proporcionar ao usuário a menor chance de atrasar qualquer pagamento ou errar o orçamento para realizar os sonhos.</p>
+<p>✅ TODOS OS BUGS ENCONTRADOS ATÉ O MOMENTO JÁ FORAM CORRIGIDOS!</p>
+<p>⭐ Ações que já estão disponíveis na v1.1.2 Beta:<p>
 <p align="left">🟢 Área de SignUp e SignIn com autenticação de conta e recuperação de senha.</p>
 <p align="left">🟢 Design UX/UI para utilizar 100% das funcionalidades do app com um visual agradável.</p>
+<p>🔥 A v1.2.2 contará com:<p>
+<p align="left">🟡 Acionamento da câmera para scanear comprovantes de pagamento;</p>
+<p align="left">🟡 Resumos mensais para o usuário acompanhar suas quitações e planejar o próximo mês.</p>
 
 ## 🚀 Tecnologias presentes
 
@@ -26,8 +30,8 @@
 - [Firebase](https://firebase.google.com/)
 
 ## 📥 Faça o download do app
-
-
+- [Link para download do APK](https://www.linkedin.com/in/laysaalves/)
+🚨 Não está disponível na Play Store ou App Store, pois foi criado como objeto de estudo das tecnologias presentes.
 
 ## 🔐 Licença
 
