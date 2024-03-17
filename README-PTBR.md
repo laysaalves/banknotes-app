@@ -15,9 +15,9 @@
 
 ## 🎯 Projeto
 
-<p>Carinhosamente apelidado como "Banknotes", o aplicativo foi desenvolvido para organizar as finanças de forma prática e estética, dando um basta nas planilhas e na desorganização! O objetivo mais precisamente é proporcionar ao usuário a menor chance de atrasar qualquer pagamento ou errar o orçamento para realizar os sonhos.</p>
+<p>Carinhosamente apelidado de "Banknotes", o aplicativo foi desenvolvido para organizar as finanças de forma prática e estética, acabando com as planilhas e a desorganização! Mais precisamente, o objetivo é fazer com que o usuário tenha menos chances de atrasar algum pagamento ou perder o orçamento para realizar seus sonhos.</p>
 <p>✅ TODOS OS BUGS ENCONTRADOS ATÉ O MOMENTO JÁ FORAM CORRIGIDOS!</p>
-<p>- Ações que já estão disponíveis na v1.1.2 Beta:<p>
+<p>> Ações que já estão disponíveis na v1.1.2 Beta:<p>
 <p align="left">🟢 Área de SignUp e SignIn com autenticação de conta e recuperação de senha.</p>
 <p align="left">🟢 Design UX/UI para utilizar 100% das funcionalidades do app com um visual agradável.</p>
 <p>🔥 A v1.2.2 contará com:<p>
