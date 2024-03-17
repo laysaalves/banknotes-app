@@ -31,7 +31,7 @@
 
 ## 📥 Faça o download do app
 - [Link para download do APK - Ainda não está liberado!](https://www.linkedin.com/in/laysaalves/)
-<p>🚨 Não está disponível na Play Store ou App Store, pois foi criado como objeto de estudo das tecnologias presentes.</p>
+<p>🚨 Não está disponível na Play Store ou App Store, pois foi criado apenas como objeto de estudo das tecnologias presentes.</p>
 
 ## 🔐 Licença
 
