@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 
 import { useNavigation } from '@react-navigation/native'
+import * as Animatable from 'react-native-animatable'
 
 import COLORS from '../../consts/colors';
 
@@ -16,17 +17,17 @@ export default function Welcome() {
  return (
    <View style={styles.container}>
     
-    <View style={styles.containerLogo}>
+    <Animatable.View animation="slideInDown" direction="alternate" style={styles.containerLogo}>
       <Image
       source={require('../../assets/logo wallet.png')}
       style={{ width: '100%' }}
       resizeMode="contain"
       />
-    </View>
+    </Animatable.View>
 
-    <View style={styles.containerForm}>
-    <Text style={styles.title}>Já que não existe almoço grátis, organize-se. </Text>
-    <Text style={styles.text}>Clique no botão abaixo e faça seu login! </Text>
+    <Animatable.View animation="fadeInUp" style={styles.containerForm}>
+    <Text style={styles.title}>Não vai cair um pix do céu direto na sua conta, organize sua grana!</Text>
+    <Text style={styles.text}>*Clique no botão abaixo e faça seu login!</Text>
     
 
     <TouchableOpacity 
@@ -35,7 +36,7 @@ export default function Welcome() {
     >
       <Text style={styles.buttonText}>Acessar</Text>
     </TouchableOpacity>
-    </View>
+    </Animatable.View>
 
    </View>
   );
@@ -54,7 +55,7 @@ const styles = StyleSheet.create({
   },
   containerForm: {
     flex: 0.9,
-    backgroundColor: 'rgba(255,255,2555, 0.5)',
+    backgroundColor: 'rgba(255,255,2555, 0.25)',
     borderTopLeftRadius: 25,
     borderTopRightRadius: 25,
     paddingStart: '5%',
@@ -65,10 +66,14 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginTop: 28,
     marginBottom: 12,
-    color: '#5d5d5d'
+    color: COLORS.boxColor,
+    textAlign: 'justify'
   },
   text:{
-    color: '#000'
+    color: COLORS.boxColorBorder,
+    fontWeight: 'bold',
+    fontSize: 14,
+    paddingTop: 5
   },
   button:{
     position: 'absolute',
@@ -83,7 +88,7 @@ const styles = StyleSheet.create({
   },
   buttonText:{
     fontSize: 18,
-    color: COLORS.secundary,
+    color: COLORS.boxColor,
     fontWeight: 'bold'
   }
 })

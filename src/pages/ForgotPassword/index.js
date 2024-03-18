@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity, KeyboardAvoidingView } from 'react-native';
 
 import { useNavigation } from '@react-navigation/native'
+import * as Animatable from 'react-native-animatable'
 
 export default function ForgotPassword() {
   const [email, setEmail] = useState('');
@@ -10,11 +11,11 @@ const navigation = useNavigation();
  return (
    <View style={styles.container}>
 
-    <View  animation="" delay={500} style={styles.containerHeader}>
+    <View style={styles.containerHeader}>
     <Text style={styles.message}>Crie sua nova senha...</Text>
     </View>
 
-    <View animation="" style={styles.containerForm}>
+    <Animatable.View animation="fadeInUp" style={styles.containerForm}>
       <TextInput
         placeholder="Seu e-mail para receber o link"
         keyboardType="email-address"
@@ -30,7 +31,8 @@ const navigation = useNavigation();
       >
       <Text style={styles.buttonText}>Pronto</Text>
       </TouchableOpacity>
-    </View>
+
+     </Animatable.View>
 
    </View>
   );
@@ -47,7 +49,7 @@ const styles = StyleSheet.create({
     paddingStart: '5%'
   },
   message:{
-    fontSize: 28,
+    fontSize: 25,
     fontWeight: 'bold',
     color: '#fff'
   },
@@ -90,7 +92,8 @@ const styles = StyleSheet.create({
   },
   buttonText:{
     color: '#fff',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    fontSize: 16
   },
   buttonForgot:{
     width: '100%',

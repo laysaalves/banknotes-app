@@ -3,19 +3,19 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import COLORS from './consts/colors'
+import COLORS from './consts/colors';
 
-import Home from './pages/Home'
-import Activities from './pages/Activities'
-import Plus from './pages/Plus'
-import Credits from './pages/Credits'
-import Menu from './pages/Menu'
-import ButtonAdd from "./components/ButtonAdd"
+import Home from './pages/Home';
+import Activities from './pages/Activities';
+import Plus from './pages/Plus';
+import Credits from './pages/Credits';
+import Menu from './pages/Menu';
+import ButtonAdd from './components/ButtonAdd';
 
-import Welcome from "./pages/Welcome";
-import SignUp from "./pages/SignUp";
-import SignIn from "./pages/SignIn";
-import ForgotPassword from "./pages/ForgotPassword";
+import Welcome from './pages/Welcome';
+import SignUp from './pages/SignUp';
+import SignIn from './pages/SignIn';
+import ForgotPassword from './pages/ForgotPassword';
 
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
@@ -101,7 +101,7 @@ export default function Routes(){
             component={Plus}
             options={{
                 headerShown: false,
-                tabBarIcon: ({ focused, size, color }) => ( <ButtonAdd size={size} color={color} focused={focused} />
+                tabBarIcon: ({ color, size, focused }) => ( <ButtonAdd size={size} color={color} focused={focused} />
                 )
             }}   
             />

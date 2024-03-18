@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity, KeyboardAvoidingView } from 'react-native';
 
 import { useNavigation } from '@react-navigation/native'
+import * as Animatable from 'react-native-animatable'
 
 export default function SignUp() {
   const [username, setUsername] = useState('')
@@ -10,52 +11,51 @@ export default function SignUp() {
 
   const navigation = useNavigation();
  return (
-   <View style={styles.container}>
+    <View style={styles.container}>
 
-    <View style={styles.containerHeader}>
-      <Text style={styles.message}>Opa, vamos lá!</Text>
-    </View>
+      <View style={styles.containerHeader}>
+        <Text style={styles.message}>Opa, vamos lá!</Text>
+      </View>
     
+      <Animatable.View animation="fadeInUp" style={styles.containerForm}>
+          <TextInput
+            placeholder="Seu apelido"
+            onChangeText={setUsername}
+            value={username}
+            style={styles.input}
+            keyboardType="email-address"
+            returnKeyType="go"
+            autoFocus={true}
+          />
 
-    <View style={styles.containerForm}>
-      <TextInput
-        placeholder="Seu apelido"
-        onChangeText={setUsername}
-        value={username}
-        style={styles.input}
-        keyboardType="email-address"
-        returnKeyType="go"
-        autoFocus={true}
-      />
-
-      <TextInput
-        placeholder="Escolha seu melhor e-mail"
-        style={styles.input}
-        onChangeText={setEmail}
-        value={email}
-      />
+          <TextInput
+            placeholder="Escolha seu melhor e-mail"
+            style={styles.input}
+            onChangeText={setEmail}
+            value={email}
+         />
  
-      <TextInput
-        placeholder="Crie uma senha forte"
-        style={styles.input}
-        onChangeText={setPassword}
-        value={password}
-        secureTextEntry={true}
-      />
+          <TextInput
+            placeholder="Crie uma senha forte"
+            style={styles.input}
+            onChangeText={setPassword}
+            value={password}
+            secureTextEntry={true}
+         />
 
-      <TouchableOpacity 
-      style={styles.buttonRegister}
-      onPress={ () => navigation.navigate('Logar')}>
+          <TouchableOpacity 
+           style={styles.buttonRegister}
+           onPress={ () => navigation.navigate('Logar')}>
         <Text style={styles.registerText}>Já possui uma conta?</Text>
-      </TouchableOpacity>
+          </TouchableOpacity>
 
-      <TouchableOpacity 
-      style={styles.button}
-      onPress={ () => navigation.navigate('Home')}>
+          <TouchableOpacity 
+           style={styles.button}
+           onPress={ () => navigation.navigate('Home')}>
         <Text style={styles.buttonText}>Pronto</Text>
-      </TouchableOpacity>
+          </TouchableOpacity>
 
-    </View>
+      </Animatable.View>
 
    </View>
   );
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     paddingStart: '5%'
   },
   message:{
-    fontSize: 28,
+    fontSize: 25,
     fontWeight: 'bold',
     color: '#fff'
   },
@@ -120,6 +120,7 @@ const styles = StyleSheet.create({
   },
   buttonText:{
     color: '#fff',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    fontSize: 16
   }
 })

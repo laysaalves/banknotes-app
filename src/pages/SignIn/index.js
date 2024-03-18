@@ -3,6 +3,7 @@ import { View, Text, TextInput, StyleSheet, TouchableOpacity, KeyboardAvoidingVi
 
 
 import { useNavigation } from '@react-navigation/native'
+import * as Animatable from 'react-native-animatable'
 
 export default function SignIn() {
   const [email, setEmail] = useState('');
@@ -16,7 +17,7 @@ export default function SignIn() {
       <Text style={styles.message}>Bem-vindo(a)!</Text>
     </View>
 
-    <View animation="" style={styles.containerForm}>
+    <Animatable.View animation="fadeInUp" style={styles.containerForm}>
       <TextInput
         placeholder="Seu email"
         onChangeText={setEmail}
@@ -36,15 +37,15 @@ export default function SignIn() {
       />
 
       <TouchableOpacity 
-      onPress={ () => navigation.navigate('Recriar senha')}
-      style={styles.buttonForgot}
+        onPress={ () => navigation.navigate('Recriar senha')}
+        style={styles.buttonForgot}
       >
       <Text style={styles.forgotText}>Esqueceu a senha?</Text>
       </TouchableOpacity>
 
-    <TouchableOpacity 
-      style={styles.button}
-      onPress={ () => navigation.navigate('Home')}>
+      <TouchableOpacity 
+       style={styles.button}
+       onPress={ () => navigation.navigate('Home')}>
       <Text style={styles.buttonText}>Pronto</Text>
       </TouchableOpacity>
       
@@ -55,16 +56,17 @@ export default function SignIn() {
       </View>
 
       <View style={styles.registerContainer}>
-      <Text style={styles.registerText}>Clique aqui para</Text>
+        <Text style={styles.registerText}>Clique aqui para</Text>
       <TouchableOpacity 
-      onPress={ () => navigation.navigate('Registrar')}
-      style={styles.registerButton}
+        onPress={ () => navigation.navigate('Registrar')}
+        style={styles.registerButton}
       >
       <Text style={styles.registerButton}>criar sua conta!</Text>
       </TouchableOpacity>
-      </View>
 
-    </View>
+       </View>
+
+     </Animatable.View>
 
    </View>
   );
@@ -81,7 +83,7 @@ const styles = StyleSheet.create({
     paddingStart: '5%'
   },
   message:{
-    fontSize: 28,
+    fontSize: 25,
     fontWeight: 'bold',
     color: '#fff'
   },
@@ -124,7 +126,8 @@ const styles = StyleSheet.create({
   },
   buttonText:{
     color: '#fff',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    fontSize: 16
   },
   buttonForgot:{
     width: '100%',
