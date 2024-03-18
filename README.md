@@ -2,9 +2,7 @@
   <a href="https://github.com/laysaalves/banknotes-app/blob/main/README-PTBR.md">Não fala inglês? Clique aqui para ler em português!</a>
   </p>
 
-  <div align="center">
 https://github.com/laysaalves/banknotes-app/assets/151975413/3b0576e7-76d5-4f8c-93dd-122c1f8271fe
-</div> 
 
 <p align="center">  
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
