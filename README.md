@@ -3,7 +3,7 @@
   </p>
 
   <div align="center">
-   <img src=".github/project-logo.jpg" width="925" height="200">
+   https://github.com/laysaalves/banknotes-app/assets/151975413/81ebd000-8818-44dc-8bed-95d4cb73cfcf
 </div> 
 
 <p align="center">  
