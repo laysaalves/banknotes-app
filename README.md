@@ -3,7 +3,7 @@
   </p>
 
   <div align="center">
-   https://github.com/laysaalves/banknotes-app/assets/151975413/81ebd000-8818-44dc-8bed-95d4cb73cfcf
+https://github.com/laysaalves/banknotes-app/assets/151975413/3b0576e7-76d5-4f8c-93dd-122c1f8271fe
 </div> 
 
 <p align="center">  
