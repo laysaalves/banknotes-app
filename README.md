@@ -1,8 +1,6 @@
 <p align="center">
   <a href="https://github.com/laysaalves/banknotes-app/blob/main/README-PTBR.md">Não fala inglês? Clique aqui para ler em português!</a>
-  </p>
-
-https://github.com/laysaalves/banknotes-app/assets/151975413/3b0576e7-76d5-4f8c-93dd-122c1f8271fe
+</p>
 
 <p align="center">  
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -15,6 +13,9 @@ https://github.com/laysaalves/banknotes-app/assets/151975413/3b0576e7-76d5-4f8c-
 
 <p>Affectionately nicknamed "Banknotes", the app was developed to organize finances in a practical and aesthetic way, putting an end to spreadsheets and disorganization! More precisely, the aim is to give the user less chance of delaying any payment or missing the budget to make their dreams come true.</p>
 <p>✅ ALL BUGS FOUND SO FAR HAVE BEEN FIXED!<p>
+
+https://github.com/laysaalves/banknotes-app/assets/151975413/f0b840f9-6515-41d4-a5bb-fba9d299e8bf
+
 <p>> Actions that are already available in v1.1.2 Beta:</p>
 <p align="left">🟢 SignUp and SignIn area with authentication and password recovery system;</p>
 <p align="left">🟢 Design UX/UI to make full use of the app's main features.</p>
