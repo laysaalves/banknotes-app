@@ -17,7 +17,7 @@
 https://github.com/laysaalves/banknotes-app/assets/151975413/6fe9496e-0415-40b9-bbaa-ea0357027a39
 
 <p>> Ações que já estão disponíveis na v1.1.2 Beta:<p>
-<p align="left">🟢 Área de SignUp e SignIn com autenticação de conta e recuperação de senha.</p>
+<p align="left">🟢 Área de SignUp e SignIn com autenticação de conta e recuperação de senha;</p>
 <p align="left">🟢 Design UX/UI para utilizar 100% das funcionalidades do app com um visual agradável.</p>
 <p>🔥 A v1.2.2 contará com:<p>
 <p align="left">🟡 Acionamento da câmera para scanear comprovantes de pagamento;</p>
