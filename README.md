@@ -1,10 +1,6 @@
 <p align="center">
   <a href="https://github.com/laysaalves/banknotes-app/blob/main/README-PTBR.md">Não fala inglês? Clique aqui para ler em português!</a>
-  </p>
-
-  <div align="center">
-   <img src=".github/project-logo.jpg" width="925" height="200">
-</div> 
+</p>
 
 <p align="center">  
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -15,10 +11,17 @@
 
 ## 🎯 Project
 
-<p>Application for planning finances in a practical and intuitive way.</p>
-<p>⭐ V1.0 will include:<p>
+<p>Affectionately nicknamed "Banknotes", the app was developed to organize finances in a practical and aesthetic way, putting an end to spreadsheets and disorganization! More precisely, the aim is to give the user less chance of delaying any payment or missing the budget to make their dreams come true.</p>
+<p>✅ ALL BUGS FOUND SO FAR HAVE BEEN FIXED!<p>
+
+https://github.com/laysaalves/banknotes-app/assets/151975413/f0b840f9-6515-41d4-a5bb-fba9d299e8bf
+
+<p>> Actions that are already available in v1.1.2 Beta:</p>
 <p align="left">🟢 SignUp and SignIn area with authentication and password recovery system;</p>
 <p align="left">🟢 Design UX/UI to make full use of the app's main features.</p>
+<p>🔥 The v1.2.2 will include:<p>
+<p align="left">🟡 Camera trigger for scanning payment receipts;</p>
+<p align="left">🟡 Monthly summaries for users to keep track of their payments and plan for the next month.</p>
 
 ## 🚀 Technologies present
 
@@ -27,7 +30,8 @@
 
 ## 📥 Download the app
 
-
+- [APK download link - Not yet released!](https://www.linkedin.com/in/laysaalves/)
+<p>🚨 It is not available on the Play Store or App Store, as it was created solely as an object of study for the technologies present.</p>
 
 ## 🔐 License
 
