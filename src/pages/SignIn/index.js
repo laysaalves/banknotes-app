@@ -1,14 +1,13 @@
 import React, {useState} from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity, KeyboardAvoidingView } from 'react-native';
 
-
 import { useNavigation } from '@react-navigation/native'
 import * as Animatable from 'react-native-animatable'
 
 export default function SignIn() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
+  
   const navigation = useNavigation();
  return (
    <View style={styles.container}>
@@ -45,7 +44,7 @@ export default function SignIn() {
 
       <TouchableOpacity 
        style={styles.button}
-       onPress={ () => navigation.navigate('Home')}>
+       >
       <Text style={styles.buttonText}>Pronto</Text>
       </TouchableOpacity>
       

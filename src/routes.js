@@ -5,17 +5,17 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import COLORS from './consts/colors';
 
+import Welcome from './pages/Welcome';
+import SignUp from './pages/SignUp';
+import SignIn from './pages/SignIn';
+import ForgotPassword from './pages/ForgotPassword';
+
 import Home from './pages/Home';
 import Activities from './pages/Activities';
 import Plus from './pages/Plus';
 import Credits from './pages/Credits';
 import Menu from './pages/Menu';
 import ButtonAdd from './components/ButtonAdd';
-
-import Welcome from './pages/Welcome';
-import SignUp from './pages/SignUp';
-import SignIn from './pages/SignIn';
-import ForgotPassword from './pages/ForgotPassword';
 
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
@@ -24,43 +24,6 @@ const Stack = createNativeStackNavigator();
 
 export default function Routes(){
     return(
-        <Stack.Navigator>
-
-                <Stack.Screen
-                name="Welcome"
-                component={Welcome}
-                options={{ headerShown: false}} 
-                />
-
-                <Stack.Screen
-                name="Registrar"
-                component={SignUp}
-                options={{ headerShown: false}}
-                />
-
-                <Stack.Screen
-                name="Logar"
-                component={SignIn}
-                options={{ headerShown: false}}
-                />
-
-                <Stack.Screen
-                name="Recriar senha"
-                component={ForgotPassword}
-                options={{ headerShown: false}}
-                />
-
-                <Stack.Screen
-                name="Home"
-                component={Home}
-                options={{ headerShown: false}}
-                />
-
-            </Stack.Navigator>
-    );
-}
-    function TabNavigator(){
-        return(
             <Tab.Navigator
             screenOptions={{
                 tabBarShowLabel: false,
@@ -88,6 +51,7 @@ export default function Routes(){
             name="Resumo" 
             component={Activities}
             options={{
+                headerShown: false,
                 tabBarIcon: ({ color, size, focused }) => {
                     if(focused){
                         return <FeatherIcon name="pie-chart" size={size} color={color}/>
@@ -101,8 +65,8 @@ export default function Routes(){
             component={Plus}
             options={{
                 headerShown: false,
-                tabBarIcon: ({ color, size, focused }) => ( <ButtonAdd size={size} color={color} focused={focused} />
-                )
+                tabBarIcon: ({ color, size, focused }) => 
+                ( <ButtonAdd size={size} color={color} focused={focused} />)
             }}   
             />
             <Tab.Screen 
@@ -132,5 +96,42 @@ export default function Routes(){
             }}  
             />
         </Tab.Navigator>
-    )
+    );
+}
+    function StackNavigation(){
+        return(
+        <NavigationContainer>
+        <Stack.Navigator>
+                <Stack.Screen
+                name="Welcome"
+                component={Welcome}
+                options={{ headerShown: false}} 
+                />
+
+                <Stack.Screen
+                name="Registrar"
+                component={SignUp}
+                options={{ headerShown: false}}
+                />
+
+                <Stack.Screen
+                name="Logar"
+                component={SignIn}
+                options={{ headerShown: false}}
+                />
+
+                <Stack.Screen
+                name="Recriar senha"
+                component={ForgotPassword}
+                options={{ headerShown: false}}
+                />
+
+                <Stack.Screen
+                name="Home"
+                component={Home}
+                options={{ headerShown: false}}
+                />
+        </Stack.Navigator>
+        </NavigationContainer>          
+    );
 }
